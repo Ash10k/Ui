@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="keyg.com.example.ash.udacity.Main2Activity">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:background="@drawable/nice_view_hd"
+        android:id="@+id/cover"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linear"
+        android:backgroundTint="#000"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/cover"
+       android:layout_centerInParent="true"
+
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Udacity"
+            android:id="@+id/u"
+            android:textSize="25sp"
+            android:paddingBottom="15dp"
+            />
+
+
+        <ImageView
+            android:layout_marginBottom="10dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:id="@+id/map"
+            android:background="@drawable/maap"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2465 Latham St"
+            android:id="@+id/latham"
+            android:textSize="18sp"
+            android:paddingBottom="15dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mountain View, CA 94043"
+            android:id="@+id/mount"
+            android:textSize="18sp"
+
+            />
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/call"
+            android:id="@+id/call"
+            />
+        <TextView
+            android:id="@+id/num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="650-555-5555"
+            android:textSize="18sp"
+            android:paddingBottom="15dp"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/linear"
+        android:layout_below="@+id/cover"
+        android:orientation="vertical"
+        android:layout_marginTop="56dp"
+
+        >
+
+
+
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="30dp"
+        android:text="Learn More"
+        android:textColor="#000"
+        android:id="@+id/learn"
+        android:padding="10dp"
+        android:background="@drawable/buttn"/>
+
+</RelativeLayout>
